@@ -12,3 +12,12 @@
 * Click on the button on top of the screen (Show Token).
 * Copy and Paste the code to get access to the APIs. 
 ![Architecture](/Img/app1.jpg)
+
+### Get access to the APIs
+   
+|IP and Port|Name|Input|Output|
+|----------|-------------|------|------|
+| (http://195.248.241.80:4242) |   getWeathermap |  (lat,long) |  Json Object |
+| (http://195.248.241.80:4242) |   getTrafficLs |  (lattop, lontop, latbtm, lonbtm) | Json Object  |
+| (http://195.248.241.80:4242) | fuzzyReasoning  | (speed, tr, col, weather)  | String |
+| (http://195.248.241.80:4242) |   sendNotification |  (firebaseId, txtAlarm) |  String |
