@@ -1,6 +1,7 @@
 # gis_bike
 ## Instruction of using APIs and the Android App
-
+### The architecture of the system is shown on the image bellow.
+![Cluster](architecture.PNG)
 ### Please download the apk app and install on your Android smartphone. 
 * Click on the code button.
 * Download the code as ZIP file.
