@@ -28,7 +28,7 @@
   * Intead of "lat" & "long" put the latitude and longitude of a specific area:
   * http://195.248.241.80:4242/amir/getweathermap?lat=43.77&long=-79.492749
   * The results should be similar to the following image:
-  * ![Architecture](/Img/app1.jpg)
+   ![Architecture](/Img/16weather.PNG)
 * In order to test the Fuzzy Reasoning API, the third API in the table will be used as follow:
    * http://195.248.241.80:4242/amir/fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
    * Instead of {speed}, {traffic-flow}, {collisions}, and {weather condition} put the actual values and test the results, for example:
