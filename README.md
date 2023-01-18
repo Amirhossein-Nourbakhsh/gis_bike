@@ -6,3 +6,4 @@
 * Click on the code button.
 * Download the code as ZIP file.
 * Extract the ZIP file and install the apk file on the Android smartphone.
+![Architecture](/Img/test.PNG)
