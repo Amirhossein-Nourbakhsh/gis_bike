@@ -10,5 +10,5 @@
 ### Assign Firebase ID for the app
 * Once the app is installed successfully, a unique ID will be assigned to the app and can be visible in the app.
 * Click on the button on top of the screen (Show Token).
-![Architecture](/Img/test.PNG)
 * Copy and Paste the code to get access to the APIs. 
+![Architecture](/Img/app1.jpg)
