@@ -33,3 +33,4 @@
    * /fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
    * Instead of {speed}, {traffic-flow}, {collisions}, and {weather condition} put the actual values and test the results, for example:
    * http://212.90.102.16:4242/amir/fuzzyreasoning?speed=13&tr=2&col=20&weather=rainy
+   * The input for weather can be one these items: [rainy, snowy, windy, sunny].
