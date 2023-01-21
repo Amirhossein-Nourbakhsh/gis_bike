@@ -17,19 +17,19 @@
 #### Summary of the APIs. Note that all the APIs are implemented by using MEAN-Stack.   
 |IP and Port|Name|Input|Output|
 |----------|-------------|------|------|
-| (http://195.248.241.80:4242) |   getWeathermap |  (lat,long) |  Json Object |
-| (http://195.248.241.80:4242) |   getTrafficLs |  (lattop, lontop, latbtm, lonbtm) | Json Object  |
-| (http://195.248.241.80:4242) | fuzzyReasoning  | (speed, tr, col, weather)  | String |
-| (http://195.248.241.80:4242) |   sendNotification |  (firebaseId, txtAlarm) |  String |
+| (http://212.90.102.16:4242) |   getWeathermap |  (lat,long) |  Json Object |
+| (http://212.90.102.16:4242) |   getTrafficLs |  (lattop, lontop, latbtm, lonbtm) | Json Object  |
+| (http://212.90.102.16:4242) | fuzzyReasoning  | (speed, tr, col, weather)  | String |
+| (http://212.90.102.16:4242) |   sendNotification |  (firebaseId, txtAlarm) |  String |
 
 #### Here are two examples of getting results:
 * In order to get weather condition in an area the "getWeathermap" API will be used as follow:
-  * http://195.248.241.80:4242/amir/getweathermap?lat&long
+  * http://212.90.102.16:4242/amir/getweathermap?lat&long
   * Intead of "lat" & "long" put the latitude and longitude of a specific area:
-  * http://195.248.241.80:4242/amir/getweathermap?lat=43.77&long=-79.492749
+  * http://212.90.102.16:4242/amir/getweathermap?lat=43.77&long=-79.492749
   * The results should be similar to the following image:
    ![Architecture](/Img/16weather.PNG)
 * In order to test the Fuzzy Reasoning API, the third API in the table will be used as follow:
-   * http://195.248.241.80:4242/amir/fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
+   * http://212.90.102.16:4242/amir/fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
    * Instead of {speed}, {traffic-flow}, {collisions}, and {weather condition} put the actual values and test the results, for example:
-   * http://195.248.241.80:4242/amir/fuzzyreasoning?speed=13&tr=2&col=20&weather=rainy
+   * http://212.90.102.16:4242/amir/fuzzyreasoning?speed=13&tr=2&col=20&weather=rainy
