@@ -24,12 +24,12 @@
 
 #### Here are two examples of getting results:
 * In order to get weather condition in an area the "getWeathermap" API will be used as follow:
-  * http://212.90.102.16:4242/amir/getweathermap?lat&long
+  * /getweathermap?lat&long
   * Intead of "lat" & "long" put the latitude and longitude of a specific area:
   * http://212.90.102.16:4242/amir/getweathermap?lat=43.77&long=-79.492749
   * The results should be similar to the following image:
    ![Architecture](/Img/16weather.PNG)
 * In order to test the Fuzzy Reasoning API, the third API in the table will be used as follow:
-   * http://212.90.102.16:4242/amir/fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
+   * /fuzzyreasoning?speed={speed}&tr={traffic-flow}&col={collisions}&weather={weather condition}
    * Instead of {speed}, {traffic-flow}, {collisions}, and {weather condition} put the actual values and test the results, for example:
    * http://212.90.102.16:4242/amir/fuzzyreasoning?speed=13&tr=2&col=20&weather=rainy
